@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: arial;
+            font-size: 1em;
+            text-decoration: dashed;
+            font-style: italic;
+            font-weight: normal;
+            /* 
+        Medias Absolutas
+        cm, mm, in (polegadas), px, pt (ponto), pc(paica)
+        
+        Mediadas Relativas
+        em (medida base atual da fonte, a altura do m maiúsculo da fonte)
+        ex (altura x de uma fonte)
+        rem (altura m da fonte definida no body)
+        vw (tamanho em porcentos relativo ao viewport(tamanho da tela do device)) 
+        %
+        */}
+
+        h1{
+            /*
+            font-family: arial;
+            font-size: 1em;
+            text-decoration: dashed;
+            font-style: italic;
+            font-weight: normal;
+            
+            -Posso simplificaro uso destas propriedades de font usando uma shorthand (uma mãozinha) com a propriedade FONT e incluer os atributos destas propriedades na seguinte ordem:
+            font-style -> font-weght -> font-size -> font-family; como abaixo:display:
+            */
+            font: italic bolder 2em Arial, Helvetica, sans-serif;
+            text-decoration: double;
+        }
+        
+        h2{
+            font: bold dashed 2em monospace;
+            text-decoration: double;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nobis deleniti et consequatur rerum quas, iusto officiis debitis aliquid maxime. Doloribus voluptatum excepturi animi quo error distinctio harum quod nesciunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aperiam doloremque rerum veniam veritatis molestias mollitia? Voluptate perspiciatis ullam accusamus, repudiandae neque dolor, numquam vero quis quod, blanditiis dolorum animi?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit atque a aperiam explicabo earum ratione doloribus adipisci at repellat dolor dolorum tempore quasi nesciunt reiciendis nihil cumque, asperiores veritatis eum.</p>
+</body>
+</html>

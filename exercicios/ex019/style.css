@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+    em HTML ID corresponde, em CSS, a #
+    em HTML CLASS corresponde, em CSS a .
+
+*/
+
+body{
+    background-image: linear-gradient(to bottom, rgb(154,217,212), white);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: rgb(60, 80, 140)
+}
+
+h1#principal {
+    text-align:center;
+    background-color: rgb(100, 140, 137);
+    color: white;
+}
+
+h2{
+    color: rgb(127, 150, 174)
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+    color: rgb(250, 250, 20);
+    text-shadow: 1px 1px 1px black;
+}
+
+.avancado{
+    color: red;
+}
