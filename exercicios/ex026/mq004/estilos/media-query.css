@@ -38,7 +38,7 @@ body{
     img#tv{display:none;}
 }
 
-@media screen and (min-width: 769px) and (max-width: 1500px){
+@media screen and (min-width: 769px) and (max-width: 1400px){
     body{
         background-image: url('../imagens/back-pc.jpg');
     }
@@ -50,7 +50,7 @@ body{
     img#tv{display:none;}
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1400px){
     body{
         background-image: url('../imagens/back-tv.jpg');
     }
