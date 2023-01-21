@@ -7,8 +7,8 @@
 para:
 
     Pequenas Telas: 0-320px
-    Celular: 320-480px
-    Tablets e Ipads: 481-768px
+    Celular: 320-460px
+    Tablets e Ipads: 461-768px
     Notebooks and Desktop: 769-1200px
     Grandes Telas: acima de 1200px
 
@@ -18,7 +18,7 @@ para:
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 769px){
+@media screen and (min-width: 461px) and (max-width: 769px){
 body{
     background-image: url('../imagens/back-tablet.jpg');
     }
