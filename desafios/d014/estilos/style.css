@@ -30,6 +30,9 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
 
+    transition: width .23s, height .3s;
+    transition-timing-function: ease;
+
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
 }
@@ -41,6 +44,18 @@ section#login > div#foto{
     height: 200px;
 }
 
-div#formulario{
+section#login > div#formulario{
+    display: block;
     padding: 10px;
+}
+
+section#login > div#formulario > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+section#login > div#formulario > p {
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: .8em;
 }
